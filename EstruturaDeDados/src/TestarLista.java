@@ -7,10 +7,14 @@ public class TestarLista {
 		lista.adicionar("Segundo");
 		lista.adicionar("Terceiro");
 		
+		
 		System.out.println(lista.estaVazia());
-		System.out.println(lista.getTamanho());
-		System.out.println(lista.getElemento(1));
+		System.out.println("Tamanho da lista: " + lista.getTamanho());
 		System.out.println(lista.getElemento(0));
+		System.out.println(lista.getElemento(1));
 		System.out.println(lista.getElemento(2));
+	
+		System.out.println(lista.getUltimo());
+		System.out.println(lista.estaVazia());
 	}
 }

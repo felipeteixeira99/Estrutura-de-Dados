@@ -5,7 +5,6 @@ public interface Lista {
 	//so tem assinatura dos metodos
 	
 	
-	
 	//Tem varios elementos
 	//Tem inicio 
 	//Tem um fim
