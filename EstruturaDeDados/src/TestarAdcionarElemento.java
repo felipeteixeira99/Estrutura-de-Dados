@@ -7,9 +7,9 @@ public class TestarAdcionarElemento {
 		System.out.println(lista.estaVazia());
 		lista.adicionar("Primeiro"); // como a minha lista não esta mais vaiza, este agora é o primeiro elemento
 		System.out.println(lista.estaVazia()); //retornar false 
-		System.out.println(lista.getUltimo()); //retorna o endereco de memoria do ultimo elemento
+		//System.out.println(lista.getUltimo()); //retorna o endereco de memoria do ultimo elemento
 		lista.adicionar("Segundo");
-		System.out.println(lista.getUltimo()); //retorna o endereco de memoria  do ultimo elemento
+		//System.out.println(lista.getUltimo()); //retorna o endereco de memoria  do ultimo elemento
 	
 	}
 

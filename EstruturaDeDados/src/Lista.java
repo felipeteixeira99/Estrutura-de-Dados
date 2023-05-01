@@ -18,10 +18,6 @@ public interface Lista {
 	//E possivel saber se a lista esta vazia
 	//E possivel esvaziar a lista
 	
-	public Celula getInicio(); //é um metodo que retorna a primeira celula
-	
-	public Celula getUltimo(); //é um metodo que retorna o ultimo elemento da lista;
-	
 	public int getTamanho(); //é um metodo que retorna o tamanho da lista
 	
 	public void adicionar(String celula); //é um metodo que adiciona um novo elemento na lista

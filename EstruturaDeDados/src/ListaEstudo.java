@@ -2,18 +2,6 @@
 public class ListaEstudo implements Lista{
 
 	@Override
-	public Celula getInicio() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Celula getUltimo() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public int getTamanho() {
 		// TODO Auto-generated method stub
 		return 0;
@@ -65,6 +53,6 @@ public class ListaEstudo implements Lista{
 	public void limparLista() {
 		// TODO Auto-generated method stub
 		
-	}
-	
+	} 
+
 }

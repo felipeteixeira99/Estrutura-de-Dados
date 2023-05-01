@@ -14,7 +14,21 @@ public class TestarLista {
 		System.out.println(lista.getElemento(1));
 		System.out.println(lista.getElemento(2));
 	
-		System.out.println(lista.getUltimo());
+		System.out.println(lista.getElemento(lista.getTamanho()-1));
+		
 		System.out.println(lista.estaVazia());
+		
+		System.out.println(lista);
+		lista.remover(3);
+		System.out.println(lista);
+		System.out.println(lista.getPosicao("Terceiros"));
+		lista.adicionar("Novo", 0);
+		System.out.println(lista);
+		lista.adicionar("Quarto");
+		System.out.println(lista);
+		lista.remover("Quarto");
+		System.out.println(lista);
+		lista.remover(2);
+		System.out.println(lista);
 	}
 }
